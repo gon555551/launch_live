@@ -43,3 +43,6 @@ In case you're unfamiliar with the process:
 - Select **Always**
 
 And you're done!
+
+## Bugs
+Files and subfolders with spaces in the name (such as *Hello World.docx*) don't work.
