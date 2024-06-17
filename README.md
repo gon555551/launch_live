@@ -6,12 +6,12 @@ Script to launch Office365 files in the browser.
 
 ## ⚡Usage
 1. Clone the repo
-```
+```bash
 git clone https://github.com/gon555551/launch_live
 ```
 ***
 2. Insert your Customer ID in *launch_live.ps1*  
-```
+```ps
 $cid = "YOUR_CID"
 ```
 You can find it in the URL of your OneDrive root folder:
@@ -21,11 +21,11 @@ You can find it in the URL of your OneDrive root folder:
 3. Convert to executable
 
 If you don't have *ps2exe* already installed, run:   
-```
+```ps
 Install-Module ps2exe
 ```  
 Then run:  
-```
+```bash
 Win-PS2EXE
 ```  
 And select *launch_live.ps1* as the input file
@@ -43,6 +43,3 @@ In case you're unfamiliar with the process:
 - Select **Always**
 
 And you're done!
-
-## Bugs
-Files and subfolders with spaces in the name (such as *Hello World.docx*) don't work.
